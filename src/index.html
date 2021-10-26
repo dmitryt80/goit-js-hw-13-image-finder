@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homework 13</title>
+</head>
+
+<body>
+  <main>
+  <form class="search-form" id="search-form">
+  <input type="text" name="query" autocomplete="off" placeholder="Search images..."> 
+  <label>"Count image on page"
+  <input class="count-image" type="text" name="countOnPage">  
+  </label> 
+  </form>
+  <div class="gallery-block">
+    <ul class="gallery"></ul>
+    <div class="block-pagination">
+  <button class="load-more is-hidden" type="button"> Load more </button>    
+    </div></div> 
+  <div class="backdrop is-hidden">
+    <div class="modal">
+  <button type="button" class="button button_close js-close"> X </button>
+  <button type="button" class="button button_arrows button_left js-left"> < </button>
+  <button type="button" class="button button_arrows button_right js-right"> > </button>
+  <img src="unknown">    
+    </div></div>   
+  </main>
+  <script src="./app.js"></script>
+</body>
+
+</html>
